@@ -614,7 +614,7 @@ exports.createGiftCardOrder = async (req, res) => {
         receiverCountryCode,
         receiverMessage,
       } = req.body;
-
+console.log(req.body) 
       //create new gift card order
       var giftCardDetails = await new GiftCard({
         amount,
