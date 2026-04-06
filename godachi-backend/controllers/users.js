@@ -482,6 +482,7 @@ exports.forgotPassword = (req, res) => {
       };
 
       console.log("sending mail password" + req.body.username);
+      console.log("sending mail password" + req.body.username)
 
       transporter.sendMail(mailOptions, (err, response) => {
         if (err) {
