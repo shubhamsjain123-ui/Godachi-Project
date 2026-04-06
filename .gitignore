@@ -3,6 +3,9 @@ node_modules/
 
 # Environment files
 .env
+.env.local
+.env.development
+.env.production
 
 # Logs
 logs
@@ -14,4 +17,17 @@ logs
 # Build folders
 dist/
 build/
+.next/
+out/
 
+# Zip files
+*.zip
+
+# Coverage
+coverage/
+
+# Sensitive files
+godachi-backend/godachi-service-account-credentials.json
+
+# Optional (VS Code)
+.vscode/

@@ -1,0 +1,7 @@
+{"_id":{"$oid":"63da61629cafd52a64d7e0c4"},"name":"Gift Card Redeemed","type":"giftcard","description":""}
+{"_id":{"$oid":"63da61629cafd52a64d7e0c5"},"name":"Signup Bonus","type":"signup","description":""}
+{"_id":{"$oid":"63da61629cafd52a64d7e0c6"},"name":"Referral Bonus","type":"referral","description":""}
+{"_id":{"$oid":"63da61629cafd52a64d7e0c7"},"name":"Order Debit","type":"orderdebit","description":""}
+{"_id":{"$oid":"63da61629cafd52a64d7e0c8"},"name":"Order Refund","type":"ordercredit","description":""}
+{"_id":{"$oid":"645f835afcd8273f4054cf69"},"name":"Referee Reward","type":"refereecredit","description":""}
+{"_id":{"$oid":"645f835afcd8273f4054cf6a"},"name":"Referral Reward","type":"referralcredit","description":""}

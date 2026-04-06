@@ -1,0 +1,1 @@
+{"_id":{"$oid":"63abd0ee08001618678512a2"},"created_user":{"name":"Super","id":"5f65e046fda80175a294c73c"},"variant":{"$oid":"63abd0ee080016186785129a"},"component":{"$oid":"63abd0ee0800161867851290"},"weight":"11","weightUnit":"ct","noOfStones":"11","discount":0,"createdAt":{"$date":"2022-12-28T05:15:26.578Z"},"updatedAt":{"$date":"2022-12-28T05:17:57.490Z"},"__v":0}

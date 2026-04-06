@@ -1,0 +1,1 @@
+{"_id":{"$oid":"64131c4501f71f30eb846775"},"product":{"$oid":"6341bfd7730c6a390f291268"},"customer":{"$oid":"637338eb3bee799cb4a08171"},"rating":4,"images":[],"review":"hitest feedback","isActive":true,"createdAt":{"$date":"2023-03-16T13:40:21.117Z"},"updatedAt":{"$date":"2023-03-16T13:40:21.117Z"},"__v":0}

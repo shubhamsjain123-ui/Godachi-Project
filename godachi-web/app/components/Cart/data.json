@@ -1,0 +1,34 @@
+[
+    {
+        "product_id":"",
+        "image":"assets/img/product/product-5.jpg",
+        "name":"Diamond Exclusive Ornament",
+        "price":"300.00",
+        "inStock":true,
+        "seo":""
+    },
+    {
+        "product_id":"",
+        "image":"assets/img/product/product-5.jpg",
+        "name":"Diamond Exclusive Ornament",
+        "price":"550.00",
+        "inStock":false,
+        "seo":""
+    },
+    {
+        "product_id":"",
+        "image":"assets/img/product/product-5.jpg",
+        "name":"Diamond Exclusive Ornament",
+        "price":"295.00",
+        "inStock":true,
+        "seo":""
+    },
+    {
+        "product_id":"",
+        "image":"assets/img/product/product-5.jpg",
+        "name":"Diamond Exclusive Ornament",
+        "price":"295.00",
+        "inStock":true,
+        "seo":""
+    }
+]

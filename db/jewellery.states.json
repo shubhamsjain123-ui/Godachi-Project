@@ -1,0 +1,36 @@
+{"_id":{"$oid":"644a391882032529880b2805"},"name":"JAMMU AND KASHMIR","code":"01"}
+{"_id":{"$oid":"644a391882032529880b2806"},"name":"HIMACHAL PRADESH","code":"02"}
+{"_id":{"$oid":"644a391882032529880b2807"},"name":"PUNJAB","code":"03"}
+{"_id":{"$oid":"644a391882032529880b2808"},"name":"CHANDIGARH","code":"04"}
+{"_id":{"$oid":"644a391882032529880b2809"},"name":"UTTARAKHAND","code":"05"}
+{"_id":{"$oid":"644a391882032529880b280a"},"name":"HARYANA","code":"06"}
+{"_id":{"$oid":"644a391882032529880b280b"},"name":"DELHI","code":"07"}
+{"_id":{"$oid":"644a391882032529880b280c"},"name":"RAJASTHAN","code":"08"}
+{"_id":{"$oid":"644a391882032529880b280d"},"name":"UTTAR PRADESH","code":"09"}
+{"_id":{"$oid":"644a391882032529880b280e"},"name":"BIHAR","code":"10"}
+{"_id":{"$oid":"644a391882032529880b280f"},"name":"SIKKIM","code":"11"}
+{"_id":{"$oid":"644a391882032529880b2810"},"name":"ARUNACHAL PRADESH","code":"12"}
+{"_id":{"$oid":"644a391882032529880b2811"},"name":"NAGALAND","code":"13"}
+{"_id":{"$oid":"644a391882032529880b2812"},"name":"MANIPUR","code":"14"}
+{"_id":{"$oid":"644a391882032529880b2813"},"name":"MIZORAM","code":"15"}
+{"_id":{"$oid":"644a391882032529880b2814"},"name":"TRIPURA","code":"16"}
+{"_id":{"$oid":"644a391882032529880b2815"},"name":"MEGHALAYA","code":"17"}
+{"_id":{"$oid":"644a391882032529880b2816"},"name":"ASSAM","code":"18"}
+{"_id":{"$oid":"644a391882032529880b2817"},"name":"WEST BENGAL","code":"19"}
+{"_id":{"$oid":"644a391882032529880b2818"},"name":"JHARKHAND","code":"20"}
+{"_id":{"$oid":"644a391882032529880b2819"},"name":"ODISHA","code":"21"}
+{"_id":{"$oid":"644a391882032529880b281a"},"name":"CHATTISGARH","code":"22"}
+{"_id":{"$oid":"644a391882032529880b281b"},"name":"MADHYA PRADESH","code":"23"}
+{"_id":{"$oid":"644a391882032529880b281c"},"name":"GUJARAT","code":"24"}
+{"_id":{"$oid":"644a391882032529880b281d"},"name":"DADRA AND NAGAR HAVELI AND DAMAN AND DIU","code":"26"}
+{"_id":{"$oid":"644a391882032529880b281e"},"name":"MAHARASHTRA","code":"27"}
+{"_id":{"$oid":"644a391882032529880b281f"},"name":"ANDHRA PRADESH","code":"28"}
+{"_id":{"$oid":"644a391882032529880b2820"},"name":"KARNATAKA","code":"29"}
+{"_id":{"$oid":"644a391882032529880b2821"},"name":"GOA","code":"30"}
+{"_id":{"$oid":"644a391882032529880b2822"},"name":"LAKSHADWEEP","code":"31"}
+{"_id":{"$oid":"644a391882032529880b2823"},"name":"KERALA","code":"32"}
+{"_id":{"$oid":"644a391882032529880b2824"},"name":"TAMIL NADU","code":"33"}
+{"_id":{"$oid":"644a391882032529880b2825"},"name":"PUDUCHERRY","code":"34"}
+{"_id":{"$oid":"644a391882032529880b2826"},"name":"ANDAMAN AND NICOBAR ISLANDS","code":"35"}
+{"_id":{"$oid":"644a391882032529880b2827"},"name":"TELANGANA","code":"36"}
+{"_id":{"$oid":"644a391882032529880b2829"},"name":"LADAKH","code":"38"}

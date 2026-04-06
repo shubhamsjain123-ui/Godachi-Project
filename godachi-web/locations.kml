@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for Godachi.</name>
+		<atom:author>
+			<atom:name>Godachi</atom:name>
+		</atom:author>
+		<atom:link rel="related" href="https://www.godachi.com" />
+		<Folder>
+			<Placemark>
+				<name><![CDATA[Godachi]]></name>
+				<address><![CDATA[Gems , Bhopal, 462003, India]]></address>
+				<phoneNumber><![CDATA[ 917354999999]]></phoneNumber>
+				<description><![CDATA[Trending Lifestyle Jewellery to enhance your beauty.]]></description>
+				<Point>
+					<coordinates>77.3927304,23.2196347,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

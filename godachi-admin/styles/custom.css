@@ -1,0 +1,110 @@
+.loginBanner {
+    background-image: url(/images/loginbanner.png);
+    background-position: 50%;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ant-layout.ant-layout-has-sider>.ant-layout {
+    position: relative;
+    background: #f4f7fe;
+}
+
+.ant-input-number-group-addon .ant-select {
+    margin: -5px 0px;
+}
+
+.ant-btn-primary { 
+    background-color: #06b306!important;
+    border-color: #13bf13!important;
+}
+
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input).ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-sm:not(.ant-select-customize-input).ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 18px;
+}
+.ant-input-number-group-addon {
+    position: relative;
+    padding: 0 4px;
+}
+.ant-input-number-handler-wrap {
+    display: none;
+}
+
+.ant-table {font-size:13px!important;}
+.ant-table-filter-column {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.ant-input-affix-wrapper {
+    width: 35%;
+    height:36px;
+}
+.ant-table-filter-trigger { 
+    margin: -4px -8px -4px 0px;
+}
+
+.ant-switch-handle {
+    top: 2px;
+    left: 2px;
+    width: 15px;
+    height: 15px;
+}
+.ant-table-tbody>tr>td, .ant-table-thead>tr>th, .ant-table tfoot>tr>td, .ant-table tfoot>tr>th {
+    position: relative;
+    padding: 10px;
+    overflow-wrap: break-word; 
+}
+
+.offerListOfferDetails {
+    font-size: 10px;
+    color: red;
+    margin-top: 4px;
+  }
+
+
+.day_detail {
+    margin-bottom: 30px;
+  }
+  .day_detail label {
+    margin-bottom: 30px;
+    display: block;
+  }
+  .B15_42 {
+    font-size: 15px;
+    color: #424242;
+    line-height: 21px;
+  }
+  .day_detail .detail {
+    clear: both;
+    overflow: hidden;
+    margin: 22px 0;
+  }
+  .day_detail .detail div {
+    float: left;
+  }
+  .day_detail .time {
+    width: 110px;
+    padding-top: 3px;
+  }
+  .M14_75 {
+    font-size: 14px;
+    color: #757575;
+    line-height: 20px;
+  }
+  .day_detail .status {
+    width: 350px;
+    border-left: 1px solid #e0e0e0;
+    padding: 2px 12px;
+  }
+  .M14_42 {
+    font-size: 14px;
+    color: #424242;
+    line-height: 20px;
+  }

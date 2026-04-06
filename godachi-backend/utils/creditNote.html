@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Credit Note</title>
+		<style>
+			.border {
+			  border: 1px solid black;
+			  border-collapse: collapse;
+			}
+            html{
+                font-size: 11px;
+				zoom:0.7;
+            }
+		</style>
+	</head>
+
+	<body>
+		<table style="width:100%" class="border">
+			<tr>
+				<td style="width:100%;text-align:center;">
+					<b>Credit Note</b>
+				</td>
+			</tr>
+		</table>
+		
+		<table style="width:100%" class="border">
+			<tr class="border" >
+				<td class="border" style="width:45%">
+					<img src="https://www.godachi.com/assets/img/logo/logo.png" width="100px" />
+					<p>
+						{{invoiceCompanyName}} <br/>
+						{{invoiceCompanyAddress}}
+					</p>
+				</td>
+				<td style="width:45%" class="border">
+					<table style="width:100%" class="border">
+						<tr>
+							<td style="width:25%">
+								Order No.
+							</td>
+							<td style="width:25%">
+								{{orderNumber}}
+							</td>
+							<td style="width:25%">
+								Dated
+							</td>
+							<td style="width:25%">
+								{{orderDate}}
+							</td>
+						</tr>
+                        <tr>
+							<td style="width:25%">
+								Original Invoice No.
+							</td>
+							<td style="width:25%">
+								{{invoiceNumber}}
+							</td>
+							<td style="width:25%">
+								Dated
+							</td>
+							<td style="width:25%">
+								{{invoiceDate}}
+							</td>
+						</tr>
+                        <tr>
+							<td style="width:25%">
+								Return No.
+							</td>
+							<td style="width:25%">
+								{{returnNumber}}
+							</td>
+							<td style="width:25%">
+								Dated
+							</td>
+							<td style="width:25%">
+								{{returnDate}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:25%">
+								Credit Note No.
+							</td>
+							<td style="width:25%">
+								{{creditNoteNumber}}
+							</td>
+							<td style="width:25%">
+								Dated
+							</td>
+							<td style="width:25%">
+								{{creditNoteDate}}
+							</td>
+						</tr>
+					</table>
+					<table style="width:100%" class="border">
+						<tr>
+							<td style="width:15%">
+								GST No.
+							</td>
+							<td style="width:35%">
+								{{companyGst}}
+							</td>
+							<td style="width:15%">
+								PAN
+							</td>
+							<td style="width:35%">
+								{{companyPan}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								State
+							</td>
+							<td style="width:35%">
+								{{companyState}}
+							</td>
+							<td style="width:15%">
+								PO No.
+							</td>
+							<td style="width:35%">
+								{{companyPo}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								State Code
+							</td>
+							<td style="width:35%">
+								{{companyStateCode}}
+							</td>
+							<td style="width:15%">
+								
+							</td>
+							<td style="width:35%">
+								
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td style="width:10%" class="border">
+					<img src="{{qrCode}}" style="width:100%"/>
+				</td>
+			</tr>
+		</table>
+		
+		<table style="width:100%" class="border">
+			<tr class="border">
+				<td style="width:50%" class="border">
+					<p><b>Bill To</b></p>
+					<table style="width:100%">
+						<tr>
+							<td style="width:15%">
+								First Name
+							</td>
+							<td style="width:35%">
+								{{billingAddress.firstName}}
+							</td>
+							<td style="width:15%">
+								Last Name
+							</td>
+							<td style="width:35%">
+								{{billingAddress.lastName}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Address
+							</td>
+							<td style="width:35%">
+								{{billingAddress.address}}
+							</td>
+							<td style="width:15%">
+								
+							</td>
+							<td style="width:35%">
+								
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Landmark
+							</td>
+							<td style="width:35%">
+								{{billingAddress.landmark}}
+							</td>
+							<td style="width:15%">
+								
+							</td>
+							<td style="width:35%">
+								
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								City
+							</td>
+							<td style="width:35%">
+								{{billingAddress.city}}
+							</td>
+							<td style="width:15%">
+								State
+							</td>
+							<td style="width:35%">
+								{{billingAddress.state}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Country
+							</td>
+							<td style="width:35%">
+								{{billingAddress.country}}
+							</td>
+							<td style="width:15%">
+								Pin Code
+							</td>
+							<td style="width:35%">
+								{{billingAddress.pinCode}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Mobile
+							</td>
+							<td style="width:35%">
+								{{billingAddress.mobile}}
+							</td>
+							<td style="width:15%">
+								State Code
+							</td>
+							<td style="width:35%">
+								{{billingAddress.stateCode}}
+							</td>
+						</tr>
+						
+					</table>
+				</td>
+				<td style="width:50%" class="border">
+					<p><b>Ship To</b></p>
+					<table style="width:100%">
+						<tr>
+							<td style="width:15%">
+								First Name
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.firstName}}
+							</td>
+							<td style="width:15%">
+								Last Name
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.lastName}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Address
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.address}}
+							</td>
+							<td style="width:15%">
+								
+							</td>
+							<td style="width:35%">
+								
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Landmark
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.landmark}}
+							</td>
+							<td style="width:15%">
+								
+							</td>
+							<td style="width:35%">
+								
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								City
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.city}}
+							</td>
+							<td style="width:15%">
+								State
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.state}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Country
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.country}}
+							</td>
+							<td style="width:15%">
+								Pin Code
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.pinCode}}
+							</td>
+						</tr>
+						<tr>
+							<td style="width:15%">
+								Mobile
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.mobile}}
+							</td>
+							<td style="width:15%">
+								State Code
+							</td>
+							<td style="width:35%">
+								{{shippingAddress.stateCode}}
+							</td>
+						</tr>
+						
+					</table>
+				</td>
+			</tr>
+		</table>
+		
+		<table style="width:100%" class="border">
+			<tr class="border">
+				<th class="border" style="width:5%">Sr. No.</th>
+				<th class="border" style="width:25%">Description of Goods</th>
+				<th class="border" style="width:10%">Product Code</th>
+				<th class="border" style="width:10%">HSN Codes</th>
+				<th class="border" style="width:10%">Making Charges</th>
+				<th class="border" style="width:10%">Purity (Karat)</th>
+				<th class="border" style="width:10%">Net Qty.</th>
+				<th class="border" style="width:10%">Net Wt.</th>
+				<th class="border" style="width:10%">Total Amount</th>
+			</tr>
+			{{#each products}}
+			<tr class="border" >
+				<td class="border" style="width:5%">{{this.sno}}</td>
+				<td class="border" style="width:25%">{{this.productName}}</td>
+				<td class="border" style="width:10%">{{this.productCode}}</td>
+				<td class="border" style="width:10%">{{this.hsnCode}}</td>
+				<td class="border" style="width:10%">{{this.makingCharges}}</td>
+				<td class="border" style="width:10%">{{this.purity}}</td>
+				<td class="border" style="width:10%">{{this.qty}}</td>
+				<td class="border" style="width:10%">{{this.netWeight}}</td>
+				<td class="border" style="width:10%">{{this.finalPrice}}</td>
+			</tr>
+			{{/each}}
+			
+		</table>
+		
+		<table style="width:100%" class="border">
+			<tr class="border" >
+				<td style="width:55%" class="border" >
+					<p><b>Refund Details</b></p>
+					<table style="width:100%" class="border" >
+						<tr class="border" >
+							<th class="border" style="width:10%">Sr. No.</th>
+							<th class="border" style="width:20%">Payment Mode</th>
+							<th class="border" style="width:20%">Doc No</th>
+							<th class="border" style="width:15%">Date</th>
+							<th class="border" style="width:20%">Customer Name</th>
+							<th class="border" style="width:15%">Amount</th>
+							
+						</tr>
+						{{#each payments}}
+						<tr class="border" >
+							<td class="border" style="width:10%">{{this.sno}}</td>
+							<td class="border" style="width:20%">{{this.mode}}</td>
+							<td class="border" style="width:20%">{{this.number}}</td>
+							<td class="border" style="width:15%">{{this.date}}</td>
+							<td class="border" style="width:20%">{{this.customerName}}</td>
+							<td class="border" style="width:15%">{{this.amount}}</td>
+						</tr>
+						{{/each}}
+					</table>
+				</td>
+				<td style="width:45%" class="border" >
+					<table style="width:100%">
+						{{#each paymentDetails}}
+						<tr>
+							<td style="width:50%">{{this.name}}</td>
+							<td style="width:50%;text-align: end;">{{this.amount}}</td>
+						</tr>
+						{{/each}}
+						
+						
+					</table>
+					<hr />
+					<table style="width:100%">
+						{{#each gstDetails}}
+						<tr>
+							<td style="width:50%">{{this.name}}</td>
+							<td style="width:50%;text-align: end;">{{this.amount}}</td>
+						</tr>
+						{{/each}}
+						
+						
+					</table>
+				</td>
+			</tr>
+			<tr class="border" >
+				<td style="width:55%" class="border" >
+					<p>{{invoiceCertifyText}}</p>
+				</td>
+				<td style="width:45%" class="border" >
+					<p>GST Payable: {{gstPayable}}</p>
+					<p>Invoice Value: {{invoiceAmount}} </p>
+				</td>
+			</tr>
+			<tr class="border" >
+				<td style="width:55%" class="border" >
+					<p>Customer Name: {{customerName}}</p>
+					<p>Customer Signature:</p>
+				</td>
+				<td style="width:45%;text-align: center;" class="border" >
+					<p>For GODACHI PRIVATE LIMITED</p>
+					<img width="100px" src="data:image/png;base64,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"/>
+					<p><b>(Authorized Signatory)</b></p>
+				</td>
+			</tr>
+		</table>
+		<table style="width:100%" class="border">
+			<tr class="border" >
+				<td style="width:100%; text-align: center;" class="border" >
+					<p>{{invoiceBottomText}}</p>
+				</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
+
+
